@@ -105,7 +105,7 @@
                     <div class="form-group">
                     <label for="">Nama Barang</label>
                     @if($errors->has('nm_barang'))
-                        <div class="text-danger"><b>{{ $errors->first('nm_barang') }}</b></div>
+                        <div class="text-danger"><i class="far fa-times-circle"></i> <b>{{ $errors->first('nm_barang') }}</b></div>
                         @endif
                         <input type="text" class="form-control" name="nm_barang" value="{{ old('nm_barang', $barang->nm_barang ?? '') }}" placeholder="Masukkan Nama Barang">
                     </div>

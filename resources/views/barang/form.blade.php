@@ -13,7 +13,8 @@
 
 <div class="content">
     <div class="container">
-            <div class="row">
+    
+        <div class="row">
         <div class="button-add">
                 <a  href="{{route('barang')}}" class="btn btn-danger"><i class="fas fa-arrow-left"></i> Back</a>
             </div>
